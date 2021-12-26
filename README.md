@@ -9,7 +9,7 @@ The dataset contains 44,441 images and different types of annotations. Dataset p
    First, we experiment with resnet-50 as a baseline. The documented code and steps can be found in resnet-50.ipynb. (also experimented with other networks but no big difference in results)
 
 - ### Custom Model:
-   Although starting from a pretrained model usually yields bettwe results than training from scratch, I think the problem/current data is not so hard to train a new model on. The final custom model can be found in custom_model.ipynb along with MACs/FLOPS calculation and receptive field analysis.
+   Although starting from a pretrained model usually yields bettwe results than training from scratch, I think the problem/current data is not so hard to train a new model on. The final custom model can be found in Custom_Network.ipynb along with MACs/FLOPS calculation and receptive field analysis.
 
 &nbsp;
 
