@@ -17,6 +17,6 @@ The dataset contains 44,441 images and different types of annotations. Dataset p
 - Depending on the dataset (and the task required), more than one item of clothing can be present in an image (images of people for example not separate clothing articles) which can yield wrong results when compared to a single ground truth label. This can be handled differently depending on the requirements. This can be handled by returning and computing results based on topk predictions as done in DeepFashion (and using topk accuracy as a metric instead). Another approach would be to formulate the problem as:
    - A multilable classification (person wearing jeans, shirt, classic shoes, etc) 
    - An object detection problem where we detect different clothing items and classify each one accordingly.
-- Experiment with different efficient backbones pretrained on a relevant dataset or on Imagenet.
+- Experiment with different computationally efficient backbones (like mobilenet) pretrained on a relevant dataset or on Imagenet.
 - Use different dataset. DeepFashion dataset has more images & labels types which can be used to make a more robust model. I initially wanted to use this dataset but had constant problems downloading it.
 
